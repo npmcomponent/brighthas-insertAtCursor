@@ -1,4 +1,4 @@
-moduel.exports = function insertAtCursor(myField, myValue) {
+module.exports = function insertAtCursor(myField, myValue) {
     if (myField.selectionStart || myField.selectionStart == '0') {
         var startPos = myField.selectionStart;
         var endPos = myField.selectionEnd;
